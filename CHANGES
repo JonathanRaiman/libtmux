@@ -4,6 +4,11 @@ Changelog
 
 Here you can find the recent changes to libtmux
 
+current
+-------
+- Fix issue on local tests where env variables would cause
+  show-environment to pause tests indefinitely.
+
 libtmux 0.8.3 (2020-08-16)
 --------------------------
 - :issue:`278`: Fix Python deprecation warnings, thanks @d1618033
